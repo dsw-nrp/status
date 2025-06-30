@@ -1,7 +1,7 @@
 url: https://dmp.eosc.cz/wizard/
-status: up
-code: 200
-responseTime: 112
-lastUpdated: 2025-06-29T23:21:36.110Z
+status: down
+code: 504
+responseTime: 15169
+lastUpdated: 2025-06-30T18:48:00.722Z
 startTime: 2025-06-24T13:29:45.579Z
 generator: Upptime <https://github.com/upptime/upptime>
