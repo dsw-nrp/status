@@ -4,19 +4,19 @@
     "url": "https://dmp.eosc.cz",
     "icon": "https://icons.duckduckgo.com/ip3/dmp.eosc.cz.ico",
     "slug": "dmp-eosc-cz",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 2748,
-    "timeDay": 8482,
-    "timeWeek": 2748,
-    "timeMonth": 2748,
-    "timeYear": 2748,
+    "status": "up",
+    "uptime": "99.67%",
+    "uptimeDay": "97.94%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.67%",
+    "uptimeYear": "99.67%",
+    "time": 2565,
+    "timeDay": 6022,
+    "timeWeek": 2565,
+    "timeMonth": 2565,
+    "timeYear": 2565,
     "dailyMinutesDown": {
-      "2025-06-30": 1
+      "2025-06-30": 30
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://dmp.eosc.cz/wizard/",
     "icon": "https://icons.duckduckgo.com/ip3/dmp.eosc.cz.ico",
     "slug": "dmp-eosc-cz-wizard",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 2001,
-    "timeDay": 7641,
-    "timeWeek": 2001,
-    "timeMonth": 2001,
-    "timeYear": 2001,
+    "status": "up",
+    "uptime": "99.68%",
+    "uptimeDay": "97.99%",
+    "uptimeWeek": "99.68%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
+    "time": 1795,
+    "timeDay": 5142,
+    "timeWeek": 1795,
+    "timeMonth": 1795,
+    "timeYear": 1795,
     "dailyMinutesDown": {
-      "2025-06-30": 0
+      "2025-06-30": 29
     }
   }
 ]
