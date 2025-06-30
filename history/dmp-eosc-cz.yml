@@ -1,7 +1,7 @@
 url: https://dmp.eosc.cz
-status: up
-code: 200
-responseTime: 954
-lastUpdated: 2025-06-29T23:21:35.789Z
+status: down
+code: 504
+responseTime: 16010
+lastUpdated: 2025-06-30T18:47:13.132Z
 startTime: 2025-06-24T13:29:44.197Z
 generator: Upptime <https://github.com/upptime/upptime>
