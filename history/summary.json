@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
-    "time": 1531,
-    "timeDay": 935,
-    "timeWeek": 1018,
-    "timeMonth": 1531,
-    "timeYear": 1531,
+    "time": 1500,
+    "timeDay": 762,
+    "timeWeek": 958,
+    "timeMonth": 1500,
+    "timeYear": 1500,
     "dailyMinutesDown": {
       "2025-06-30": 30
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/dmp.eosc.cz.ico",
     "slug": "dmp-eosc-cz-wizard",
     "status": "up",
-    "uptime": "99.90%",
+    "uptime": "99.91%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.90%",
-    "uptimeYear": "99.90%",
-    "time": 753,
-    "timeDay": 172,
-    "timeWeek": 143,
-    "timeMonth": 753,
-    "timeYear": 753,
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 727,
+    "timeDay": 103,
+    "timeWeek": 133,
+    "timeMonth": 727,
+    "timeYear": 727,
     "dailyMinutesDown": {
       "2025-06-30": 29
     }
