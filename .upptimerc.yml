@@ -4,8 +4,10 @@ repo: status
 sites:
   - name: DMP.eosc.cz
     url: https://dmp.eosc.cz
+    icon: https://dmp.eosc.cz/static/icons/favicon.svg
   - name: DMP.eosc.cz/wizard
     url: https://dmp.eosc.cz/wizard/
+    icon: https://dmp.eosc.cz/wizard/img/favicon/favicon.ico
 
 status-website:
   baseUrl: /status
@@ -19,6 +21,27 @@ status-website:
       href: /status
     - title: Homepage
       href: https://dmp.eosc.cz
+  js: |
+    function hidePastIncidents() {
+      const path = window.location.pathname.replace(/\/$/, "");
+
+      if (path !== "/status") {
+        return;
+      }
+
+      document.querySelectorAll("section").forEach(function (section) {
+        const heading = section.querySelector("h2");
+
+        if (heading && heading.textContent.trim() === "Past Incidents") {
+          section.style.display = "none";
+        }
+      });
+    }
+
+    window.addEventListener("load", hidePastIncidents);
+
+    setTimeout(hidePastIncidents, 500);
+    setTimeout(hidePastIncidents, 1500);
 
 workflowSchedule:
   graphs: "0 0 * * *"
