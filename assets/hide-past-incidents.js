@@ -18,19 +18,31 @@ function runSoon() {
   hidePastIncidents();
   setTimeout(hidePastIncidents, 100);
   setTimeout(hidePastIncidents, 500);
+  setTimeout(hidePastIncidents, 1000);
 }
 
-window.addEventListener("load", runSoon);
+function hookHistory(method) {
+  const original = history[method];
+
+  history[method] = function () {
+    const result = original.apply(this, arguments);
+    runSoon();
+    return result;
+  };
+}
+
+hookHistory("pushState");
+hookHistory("replaceState");
+
 window.addEventListener("popstate", runSoon);
 window.addEventListener("hashchange", runSoon);
+window.addEventListener("load", runSoon);
+document.addEventListener("DOMContentLoaded", runSoon);
 
 const observer = new MutationObserver(runSoon);
-
-window.addEventListener("DOMContentLoaded", function () {
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
+observer.observe(document.documentElement, {
+  childList: true,
+  subtree: true
 });
 
 runSoon();
