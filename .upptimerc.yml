@@ -21,27 +21,8 @@ status-website:
       href: /status
     - title: Homepage
       href: https://dmp.eosc.cz
-  js: |
-    function hidePastIncidents() {
-      const path = window.location.pathname.replace(/\/$/, "");
-
-      if (path !== "/status") {
-        return;
-      }
-
-      document.querySelectorAll("section").forEach(function (section) {
-        const heading = section.querySelector("h2");
-
-        if (heading && heading.textContent.trim() === "Past Incidents") {
-          section.style.display = "none";
-        }
-      });
-    }
-
-    window.addEventListener("load", hidePastIncidents);
-
-    setTimeout(hidePastIncidents, 500);
-    setTimeout(hidePastIncidents, 1500);
+  scripts:
+    - src: https://dsw-nrp.github.io/status/hide-past-incidents.js
 
 workflowSchedule:
   graphs: "0 0 * * *"
