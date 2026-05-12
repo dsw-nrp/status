@@ -23,6 +23,7 @@ status-website:
       href: https://dmp.eosc.cz
   scripts:
     - src: https://dsw-nrp.github.io/status/hide-past-incidents.js
+    - src: https://dsw-nrp.github.io/status/hide-response-title.js
 
 workflowSchedule:
   graphs: "0 0 * * *"
