@@ -1,7 +1,7 @@
 function hideResponseTitle() {
   const path = window.location.pathname.replace(/\/$/, "");
 
-  if (path !== "/status") {
+  if (!path.startsWith("/status/history/")) {
     return;
   }
 
@@ -12,10 +12,10 @@ function hideResponseTitle() {
   });
 }
 
+hideResponseTitle();
 window.addEventListener("load", hideResponseTitle);
 
 const observer = new MutationObserver(hideResponseTitle);
-
 observer.observe(document.body, {
   childList: true,
   subtree: true
