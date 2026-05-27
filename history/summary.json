@@ -5,20 +5,17 @@
     "icon": "https://dmp.eosc.cz/static/icons/favicon.svg",
     "slug": "dmp-eosc-cz",
     "status": "up",
-    "uptime": "99.99%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 942,
-    "timeDay": 661,
-    "timeWeek": 747,
-    "timeMonth": 751,
+    "timeDay": 885,
+    "timeWeek": 738,
+    "timeMonth": 757,
     "timeYear": 942,
-    "dailyMinutesDown": {
-      "2025-06-30": 30,
-      "2025-08-25": 19
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "DMP.eosc.cz/wizard",
@@ -26,18 +23,16 @@
     "icon": "https://dmp.eosc.cz/wizard/img/favicon/favicon.ico",
     "slug": "dmp-eosc-cz-wizard",
     "status": "up",
-    "uptime": "99.99%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
-    "time": 186,
-    "timeDay": 316,
+    "uptimeYear": "100.00%",
+    "time": 187,
+    "timeDay": 458,
     "timeWeek": 413,
-    "timeMonth": 264,
-    "timeYear": 186,
-    "dailyMinutesDown": {
-      "2025-06-30": 29
-    }
+    "timeMonth": 275,
+    "timeYear": 187,
+    "dailyMinutesDown": {}
   }
 ]
