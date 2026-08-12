@@ -6,25 +6,27 @@
     "slug": "dmp-eosc-cz",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 906,
     "timeDay": 733,
     "timeWeek": 931,
     "timeMonth": 778,
-    "timeYear": 868,
-    "dailyMinutesDown": {}
+    "timeYear": 867,
+    "dailyMinutesDown": {
+      "2026-08-12": 2
+    }
   },
   {
     "name": "DMP.eosc.cz/wizard",
     "url": "https://dmp.eosc.cz/wizard/",
     "icon": "https://dmp.eosc.cz/wizard/img/favicon/favicon.ico",
     "slug": "dmp-eosc-cz-wizard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,6 +35,8 @@
     "timeWeek": 453,
     "timeMonth": 400,
     "timeYear": 196,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-08-12": 0
+    }
   }
 ]
